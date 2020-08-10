@@ -11,7 +11,7 @@ export default function(state = initialState, action){
             return {...state, items: action.payload }
             break;
         case NEW_POSTS:
-            
+            return {...state, item:action.payload}
             break;
         default:
             return state;
